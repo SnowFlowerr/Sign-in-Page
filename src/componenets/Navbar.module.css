@@ -1,0 +1,19 @@
+*{
+    margin: 0%;
+    text-decoration: none;
+}
+.navbar{
+    background-color: black;
+    font-size: 30px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+}
+.item{
+    margin: 20px;
+}
+
+.navbar .menu a{
+    color: white;
+}
