@@ -186,7 +186,7 @@
         width: 8vw;
     }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px) and (min-width:401px) {
     .box{
         width: 60vw;
     }
@@ -258,5 +258,80 @@
     }
     .buttn{
         width: 20vw;
+    }
+}
+@media screen and (max-width:400px) {
+    .box{
+        width: 90vw;
+    }
+    .logobox{
+        width: 30vw;
+        height: 30vw;
+    }
+    .logo{
+        width: 28vw;
+        height: 28vw;
+    }
+    .inputbox{
+        /* border: 3px solid black; */
+        /* width: 32vw; */
+        height: 33vh;
+    }
+    .user{
+        width: 76vw;
+        margin-left: 2vw;
+        background:url("https://cdn-icons-png.flaticon.com/512/1077/1077114.png") no-repeat scroll;
+        padding-left: 8vw;
+        background-size: 5vw;
+        background-position:left ;
+        background-position-x: 5px;
+    }
+    .dob{
+        width: 76vw;
+        margin-left: 2vw;
+        background:url("https://cdn-icons-png.flaticon.com/128/6697/6697479.png") no-repeat scroll ;
+        padding-left: 8vw;
+        background-size: 5vw;
+        background-position:left ;
+        background-position-x: 5px;
+    }
+    .phone{
+        width: 76vw;
+        margin-left: 2vw;
+        background:url("https://png.pngtree.com/png-clipart/20210311/original/pngtree-phone-icon-in-circle-black-png-image_5994540.png") no-repeat scroll ;
+        padding-left: 8vw;
+        background-size: 6vw;
+        background-position:left ;
+        background-position-x: 5px;
+    }
+    .email{
+        width: 75vw;
+        margin-left: 2vw;
+        background:url("https://www.shareicon.net/data/128x128/2015/12/02/681171_email_512x512.png") no-repeat scroll ;
+        padding-left: 8vw;
+        background-size: 5vw;
+        background-position:left ;
+        background-position-x: 5px;
+    }
+    .pass{
+        width: 75vw;
+        margin-left: 2vw;
+        background:url("https://www.shareicon.net/data/128x128/2015/11/10/669695_locked_512x512.png") no-repeat scroll ;
+        padding-left: 8vw;
+        background-size: 5vw;
+        background-position:left ;
+        background-position-x: 5px;
+    }
+    .cpass{
+        width: 75vw;
+        margin-left: 2vw;
+        background:url("https://www.shareicon.net/data/128x128/2015/11/10/669695_locked_512x512.png") no-repeat scroll ;
+        padding-left: 8vw;
+        background-size: 5vw;
+        background-position:left ;
+        background-position-x: 5px;
+    }
+    .buttn{
+        width: 25vw;
     }
 }

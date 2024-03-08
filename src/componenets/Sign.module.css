@@ -39,10 +39,12 @@
     height: 4.6vh;
     box-shadow: 3px 3px 5px rgb(111, 122, 138);
     border: 0;
-    background:url("https://cdn-icons-png.flaticon.com/512/1077/1077114.png") no-repeat scroll 0.6vw 0.5vh;
+    background:url("https://cdn-icons-png.flaticon.com/512/1077/1077114.png") no-repeat scroll;
     padding-left: 3vw;
     padding-right: 2vw;
     background-size: 2vw;
+    background-position:left ;
+    background-position-x: 5px;
 }
 .pass{
     width: 20.5vw;
@@ -51,10 +53,12 @@
     height: 4.6vh;
     box-shadow: 3px 3px 5px rgb(111, 122, 138);
     border: 0;
-    background:url("https://www.shareicon.net/data/128x128/2015/11/10/669695_locked_512x512.png") no-repeat scroll 0.6vw 0.8vh;
+    background:url("https://www.shareicon.net/data/128x128/2015/11/10/669695_locked_512x512.png") no-repeat scroll;
     padding-left: 3vw;
     padding-right: 2vw;
     background-size: 2vw;
+    background-position:left ;
+    background-position-x: 5px;
 }
 .rem{
     text-align: center;
@@ -125,7 +129,7 @@
         width: 8vw;
     }
 }
-@media screen and (max-width:600px) {
+@media screen and (max-width:600px) and (min-width:401px) {
     .box{
         width: 60vw;
     }
@@ -162,5 +166,44 @@
     }
     .buttn{
         width: 20vw;
+    }
+}
+@media screen and (max-width:400px) {
+    .box{
+        width: 90vw;
+    }
+    .logobox{
+        width: 30vw;
+        height: 30vw;
+    }
+    .logo{
+        width: 28vw;
+        height: 28vw;
+    }
+    .inputbox{
+        /* border: 3px solid black; */
+        /* width: 32vw; */
+        height: 33vh;
+    }
+    .user{
+        width: 76vw;
+        margin-left: 2vw;
+        background:url("https://cdn-icons-png.flaticon.com/512/1077/1077114.png") no-repeat scroll;
+        padding-left: 8vw;
+        background-size: 5vw;
+        background-position:left ;
+        background-position-x: 5px;
+    }
+    .pass{
+        width: 76vw;
+        margin-left: 2vw;
+        background:url("https://www.shareicon.net/data/128x128/2015/11/10/669695_locked_512x512.png") no-repeat scroll ;
+        padding-left: 8vw;
+        background-size: 5vw;
+        background-position:left ;
+        background-position-x: 5px;
+    }
+    .buttn{
+        width: 25vw;
     }
 }
