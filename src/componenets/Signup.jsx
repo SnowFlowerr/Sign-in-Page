@@ -52,7 +52,7 @@ export default function Signup() {
                 <div className={styles.logobox}><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOWXwl_HONi9kFuA9BtSCTEQqW-Bi_b7RKaQ&usqp=CAU" className={styles.logo} alt="Signin Logo" /></div>
                 <div className={styles.inputbox}>
                     <form autocomplete="off" onSubmit={handleSubmit}>
-                        <input className={styles.email} type="email" id='email' onChange={handleChange} placeholder='Email ID' required/> <br /><br />
+                        <input className={styles.email} type="email" autoComplete='off' id='email' onChange={handleChange} placeholder='Email ID' required/> <br /><br />
                         <input className={styles.pass} type="password" id='pass' onChange={handleChange} placeholder='New Password' required/> <br /><br />
                         <input className={styles.cpass} type="password" id='cpass' onChange={handleChange} placeholder='Confirm Password' required/> <br /><br />
                         <div className={styles.buttnbox}>
